@@ -1,0 +1,92 @@
+[
+    {
+        "id": "1",
+        "productName": "Foundation",
+        "productPrice": 30,
+        "sellingAmount": 50,
+        "returnAmount": 5,
+        "profitPerProduct": 15,
+        "sellingDate": "2023-05-01"
+    },
+    {
+        "id": "2",
+        "productName": "Mascara",
+        "productPrice": 15,
+        "sellingAmount": 80,
+        "returnAmount": 10,
+        "profitPerProduct": 8,
+        "sellingDate": "2023-05-02"
+    },
+    {
+        "id": "3",
+        "productName": "Lipstick",
+        "productPrice": 20,
+        "sellingAmount": 60,
+        "returnAmount": 7,
+        "profitPerProduct": 10,
+        "sellingDate": "2023-05-03"
+    },
+    {
+        "id": "4",
+        "productName": "Eyeshadow Palette",
+        "productPrice": 50,
+        "sellingAmount": 30,
+        "returnAmount": 3,
+        "profitPerProduct": 20,
+        "sellingDate": "2023-05-04"
+    },
+    {
+        "id": "5",
+        "productName": "Blush",
+        "productPrice": 25,
+        "sellingAmount": 40,
+        "returnAmount": 4,
+        "profitPerProduct": 12,
+        "sellingDate": "2023-05-05"
+    },
+    {
+        "id": "6",
+        "productName": "Lip Gloss",
+        "productPrice": 12,
+        "sellingAmount": 70,
+        "returnAmount": 8,
+        "profitPerProduct": 6,
+        "sellingDate": "2023-05-06"
+    },
+    {
+        "id": "7",
+        "productName": "Concealer",
+        "productPrice": 18,
+        "sellingAmount": 55,
+        "returnAmount": 6,
+        "profitPerProduct": 9,
+        "sellingDate": "2023-05-07"
+    },
+    {
+        "id": "8",
+        "productName": "Nail Polish",
+        "productPrice": 10,
+        "sellingAmount": 90,
+        "returnAmount": 12,
+        "profitPerProduct": 5,
+        "sellingDate": "2023-05-08"
+    },
+    {
+        "id": "9",
+        "productName": "Highlighter",
+        "productPrice": 22,
+        "sellingAmount": 35,
+        "returnAmount": 4,
+        "profitPerProduct": 11,
+        "sellingDate": "2023-05-09"
+    },
+    {
+        "id": "10",
+        "productName": "Eyeliner",
+        "productPrice": 14,
+        "sellingAmount": 65,
+        "returnAmount": 7,
+        "profitPerProduct": 7,
+        "sellingDate": "2023-05-10"
+    }
+]
