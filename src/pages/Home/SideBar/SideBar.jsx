@@ -7,15 +7,18 @@ import ActiveLink from "./ActiveLink";
 import { Link } from "react-router-dom";
 
 
-const SideBar = () => {
+const SideBar = ({children}) => {
     return (
         <div className="drawer lg:drawer-open">
             <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-            <div className="drawer-content flex flex-col items-center justify-center">
-                {/* Page content here */}
-                <h2 className="text3xl">lksdfjldksajfklads</h2>
+            <div className="drawer-content flex flex-col items-center justify-center bg-secondaryBg">
+                <div className="flex w-full py-2">
+                <div className="w-2/5">
+                {children}
+                </div>
+                <div className="w-3/5"></div>
+                </div>
                 <label htmlFor="my-drawer-2" className="btn btn-primary drawer-button lg:hidden">Open drawer</label>
-
             </div>
             <div className="drawer-side">
                 <label htmlFor="my-drawer-2" className="drawer-overlay"></label>

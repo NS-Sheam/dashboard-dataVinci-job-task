@@ -1,9 +1,9 @@
-import SideBar from "../SideBar/SideBar";
+import Sales from "../../../components/Sales";
 
 const Home = () => {
     return (
         <>
-            <SideBar/>
+            <Sales />
         </>
     );
 };
