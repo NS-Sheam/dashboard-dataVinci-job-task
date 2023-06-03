@@ -51,7 +51,7 @@
         "sellingAmount": 70,
         "returnAmount": 8,
         "profitPerProduct": 6,
-        "sellingDate": "2023-05-06"
+        "sellingDate": "2023-05-30"
     },
     {
         "id": "7",
@@ -60,7 +60,7 @@
         "sellingAmount": 55,
         "returnAmount": 6,
         "profitPerProduct": 9,
-        "sellingDate": "2023-05-07"
+        "sellingDate": "2023-05-29"
     },
     {
         "id": "8",
@@ -78,15 +78,33 @@
         "sellingAmount": 35,
         "returnAmount": 4,
         "profitPerProduct": 11,
-        "sellingDate": "2023-05-09"
+        "sellingDate": "2023-05-27"
     },
     {
         "id": "10",
-        "productName": "Eyeliner",
-        "productPrice": 14,
+        "productName": "Lipgel",
+        "productPrice": 18,
         "sellingAmount": 65,
         "returnAmount": 7,
         "profitPerProduct": 7,
         "sellingDate": "2023-05-10"
+    },
+    {
+        "id": "11",
+        "productName": "Eyeshade",
+        "productPrice": 20,
+        "sellingAmount": 80,
+        "returnAmount": 10,
+        "profitPerProduct": 8,
+        "sellingDate": "2023-05-30"
+    },
+    {
+        "id": "12",
+        "productName": "Lipstick",
+        "productPrice": 20,
+        "sellingAmount": 60,
+        "returnAmount": 7,
+        "profitPerProduct": 10,
+        "sellingDate": "2023-06-01"
     }
 ]

@@ -13,7 +13,7 @@ const SideBar = ({children}) => {
             <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content flex flex-col items-center justify-center bg-secondaryBg">
                 <div className="flex w-full py-2">
-                <div className="w-2/5">
+                <div className="w-2/5 lg:py-6">
                 {children}
                 </div>
                 <div className="w-3/5"></div>
