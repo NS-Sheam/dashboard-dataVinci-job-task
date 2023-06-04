@@ -7,6 +7,12 @@ import {
 } from "react-router-dom";
 import Main from './layouts/Main';
 import Home from './pages/Home/Home/Home';
+import Login from './pages/Login/Login';
+import SignUp from './pages/SignUp/SignUp';
+import Stats from './pages/Stats/Stats';
+import Marketing from './pages/Marketing/Marketing';
+import Finance from './pages/Finance/Finance';
+import Orders from './pages/Orders/Orders';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -14,8 +20,32 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home/>
-      }
+        element: <Home />
+      },
+      {
+        path: "login",
+        element: <Login />
+      },
+      {
+        path: "signup",
+        element: <SignUp />
+      },
+      {
+        path: "orders",
+        element: <Orders />
+      },
+      {
+        path: "finance",
+        element: <Finance />
+      },
+      {
+        path: "marketing",
+        element: <Marketing />
+      },
+      {
+        path: "stats",
+        element: <Stats />
+      },
     ]
   },
 ]);

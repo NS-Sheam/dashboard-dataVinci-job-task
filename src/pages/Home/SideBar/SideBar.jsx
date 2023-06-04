@@ -5,20 +5,21 @@ import { SiMoneygram } from 'react-icons/si';
 import { AiFillShop, AiOutlineBarChart, AiOutlineSetting, AiOutlineShoppingCart, AiOutlineSound } from 'react-icons/ai';
 import ActiveLink from "./ActiveLink";
 import { Link } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
 
 
-const SideBar = ({children}) => {
+const SideBar = ({ children }) => {
     return (
         <div className="drawer lg:drawer-open">
+            <label htmlFor="my-drawer-2" className="absolute m-4 right-0 drawer-button lg:hidden"><FaBars className="text-white"/></label>
             <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content flex flex-col items-center justify-center bg-secondaryBg">
                 <div className="flex w-full py-2">
-                <div className="w-2/5 lg:py-6">
-                {children}
+                    <div className="w-full lg:py-6">
+                        {children}
+                    </div>
                 </div>
-                <div className="w-3/5"></div>
-                </div>
-                <label htmlFor="my-drawer-2" className="btn btn-primary drawer-button lg:hidden">Open drawer</label>
+                
             </div>
             <div className="drawer-side">
                 <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
@@ -32,7 +33,7 @@ const SideBar = ({children}) => {
                             <ActiveLink to={`/`}><MdSpaceDashboard /> Dashboard
                             </ActiveLink></li>
                         <li className="my-1">
-                            <ActiveLink to="/order"><AiOutlineShoppingCart /> Orders & Delevary
+                            <ActiveLink to="/orders"><AiOutlineShoppingCart /> Orders & Delevary
                             </ActiveLink></li>
                         <li className="my-1">
                             <ActiveLink to="/stats"><AiOutlineBarChart /> Stats
@@ -44,7 +45,7 @@ const SideBar = ({children}) => {
                             <ActiveLink to="/marketing"><AiOutlineSound /> Marketing
                             </ActiveLink></li>
                         <li className="my-1">
-                            <ActiveLink to="/setting"><AiOutlineSetting /> Setting
+                            <ActiveLink to="/login"><AiOutlineSetting /> Login
                             </ActiveLink></li>
                     </ul>
                 </div>

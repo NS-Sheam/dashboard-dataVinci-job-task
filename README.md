@@ -1,5 +1,5 @@
-# **Assignment 11**
-**Hello, this is assignment 11**
+# **Swift Mart**
+**React project**
 
 ## What in this project
 ---
@@ -8,8 +8,11 @@ This is a site in which anyone can serch for toy for his children. Now I will gi
 - I install react router dom
 - I install tailwind as a css framework.
 - Also I use daisyui library.
-- I make some json data for showing them in UI.
+- I make some json data for showing them in UI. 
 - I use react icon packge.
+- I use rechart
+- I add a login page and a sign up page
+- I don't use backend functionality in the project
 ## Thats for all. Thank you.
 ---
-## Here is my live site link- https://toy-marketplace-f77ed.web.app/
+## Check the live site link- 

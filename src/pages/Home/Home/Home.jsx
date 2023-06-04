@@ -70,31 +70,31 @@ const Home = () => {
             <div className="space-y-5">
                 <Sales
                     handleFilterOption={handleFilterOption} />
-                <div className="card lg:w-96 bg-gradient-to-b from-yellow-500 to-transparent shadow-xl border border-white">
+                <div className="card w-64 lg:w-96 bg-gradient-to-b from-yellow-500 to-transparent shadow-xl border border-white">
                     <div className="card-body text-white">
-                        <div className="card-actions justify-start lg:text-5xl">
+                        <div className="card-actions justify-start text-3xl lg:text-5xl">
                             <FaMoneyBillAlt />
                         </div>
-                        <p className="lg:text-2xl font-bold text-green-400">Total sales</p>
-                        <h2 className="lg:text-6xl font-light">${totalSell}</h2>
+                        <p className="text-xl lg:text-2xl font-bold text-green-400">Total sales</p>
+                        <h2 className="text-4xl lg:text-6xl font-light">${totalSell}</h2>
                     </div>
                 </div>
-                <div className="card lg:w-96 bg-gradient-to-b from-blue-900 to-transparent shadow-xl border border-white">
+                <div className="card w-64 lg:w-96 bg-gradient-to-b from-blue-900 to-transparent shadow-xl border border-white">
                     <div className="card-body text-white">
-                        <div className="card-actions justify-start lg:text-5xl">
+                        <div className="card-actions justify-start text-3xl lg:text-5xl">
                             <GiReturnArrow />
                         </div>
-                        <p className="lg:text-2xl font-bold text-red-500">Total return</p>
-                        <h2 className="lg:text-6xl font-light">${totalReturn}</h2>
+                        <p className="text-xl lg:text-2xl font-bold text-red-500">Total return</p>
+                        <h2 className="text-4xl lg:text-6xl font-light">${totalReturn}</h2>
                     </div>
                 </div>
-                <div className="card lg:w-96 bg-gradient-to-b from-green-900 to-transparent shadow-xl border border-white">
+                <div className="card w-64 lg:w-96 bg-gradient-to-b from-green-900 to-transparent shadow-xl border border-white">
                     <div className="card-body text-white">
-                        <div className="card-actions justify-start lg:text-5xl">
+                        <div className="card-actions justify-start text-3xl lg:text-5xl">
                             <FaMoneyBillAlt />
                         </div>
-                        <p className="lg:text-2xl font-bold text-blue-400">Profit</p>
-                        <h2 className="lg:text-6xl font-light">${profit}</h2>
+                        <p className="text-xl lg:text-2xl font-bold text-blue-400">Profit</p>
+                        <h2 className="text-4xl lg:text-6xl font-light">${profit}</h2>
                     </div>
                 </div>
             </div>
