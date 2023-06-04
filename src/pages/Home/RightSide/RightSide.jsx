@@ -68,7 +68,7 @@ const RightSide = ({ data }) => {
                 {/* for large devices */}
                 <AreaChart
                     className="hidden lg:block"
-                    width={500}
+                    width={450}
                     height={400}
                     data={addFilter}
                     margin={{
