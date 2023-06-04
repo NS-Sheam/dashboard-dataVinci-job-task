@@ -22,7 +22,7 @@ const Stats = () => {
         <div>
             <AreaChart
                 className="hidden lg:block"
-                width={1000}
+                width={800}
                 height={600}
                 data={addFilter}
                 margin={{
