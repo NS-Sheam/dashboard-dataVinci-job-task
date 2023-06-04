@@ -15,4 +15,4 @@ This is a site in which anyone can serch for toy for his children. Now I will gi
 - I don't use backend functionality in the project
 ## Thats for all. Thank you.
 ---
-## Check the live site link- 
+## Check the [live site](https://647c26a14cd97678d4081327--helpful-dolphin-91c920.netlify.app/).
